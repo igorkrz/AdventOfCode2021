@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Model\Day3;
+namespace App\Enum\Day3;
 
 abstract class Rating
 {

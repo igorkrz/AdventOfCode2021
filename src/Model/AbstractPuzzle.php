@@ -33,7 +33,7 @@ abstract class AbstractPuzzle implements PuzzleInterface
         echo 'Time: ' . ((microtime(true) * 1000) - $this->ini_time) . "\n";
     }
 
-    private function getInputFilePath()
+    protected function getInputFilePath()
     {
         $path = (string)(new \ReflectionClass($this))->getFileName();
 

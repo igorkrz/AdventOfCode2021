@@ -4,8 +4,8 @@
 namespace App\Puzzle\Day3;
 
 
+use App\Enum\Day3\Rating;
 use App\Model\AbstractPuzzle;
-use App\Model\Day3\Rating;
 
 class Solution extends AbstractPuzzle
 {
