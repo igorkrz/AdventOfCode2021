@@ -33,7 +33,7 @@ class Solution extends AbstractPuzzle
     /**
      * @inheritDoc
      */
-    public function solution2(array $array = [], int $numberOfDays = 0): string
+    public function solution2(array $array = []): string
     {
         $splitArray = explode(',', $array[0]);
         $intArray = array_map('intval', $splitArray);
